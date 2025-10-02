@@ -25,12 +25,9 @@ export const useGifs = () => {
 
         if (query.length === 0) return;
 
-        if (previousTerms.includes(query)) {
-            setGifs(gifsCache.current[query]);
-            return;
-        };
+        if (previousTerms.includes(query)) return;
 
-        setPreviousTerms([query, ...previousTerms].slice(0, 8));
+        setPreviousTerms([query, ...previousTerms].splice(0, 8));
 
         const gifs = await getGifsByQuery(query);
         setGifs(gifs);
@@ -41,10 +38,10 @@ export const useGifs = () => {
     return {
         // Properties
         gifs,
-        previousTerms,
 
         // Methods
         handleSearch,
         handleTermClicked,
+        previousTerms,
     };
 };
