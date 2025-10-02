@@ -32,7 +32,7 @@ Para clonar y ejecutar este proyecto localmente, sigue estos pasos:
 
 2.  Navega al directorio del proyecto e instala las dependencias:
     ```bash
-    cd [nombre-del-proyecto]
+    cd react-gift-expert-app
     npm install
     ```
 
