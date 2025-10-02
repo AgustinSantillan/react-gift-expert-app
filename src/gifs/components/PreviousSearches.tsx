@@ -16,8 +16,7 @@ export const PreviousSearches = ({ searches, onLabelClicked }: Props) => {
                     >
                         {term}
                     </li>
-                ))
-                }
+                ))}
             </ul>
         </div>
     );
