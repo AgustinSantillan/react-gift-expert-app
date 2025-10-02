@@ -1,8 +1,12 @@
 # Buscador de Gifs (Gif Expert App)
 
-Este proyecto es una aplicación web para buscar y visualizar GIFs, desarrollada para mi capacitación en React a través del curso de **Fernando Herrera en DevTalles**.
+Este proyecto es una aplicación web para buscar y visualizar GIFs, desarrollada como parte de mi capacitación autodidacta en **React** siguiendo el curso **React: de cero a experto - Edición 2025** de **Fernando Herrera (DevTalles)**.
 
 La aplicación permite a los usuarios buscar GIFs, ver búsquedas previas y cargar más resultados a medida que se desplazan.
+
+La aplicación está desplegada en Netlify. Puedes probarla en el siguiente enlace:
+
+**[https://moonlit-torrone-b8b25b.netlify.app/](https://moonlit-torrone-b8b25b.netlify.app/)**
 
 ## Características Principales
 
