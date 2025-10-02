@@ -27,7 +27,7 @@ Para clonar y ejecutar este proyecto localmente, sigue estos pasos:
 
 1.  Clona el repositorio:
     ```bash
-    git clone [https://github.com/AgustinSantillan/react-gift-expert-app.git]
+    git clone https://github.com/AgustinSantillan/react-gift-expert-app.git
     ```
 
 2.  Navega al directorio del proyecto e instala las dependencias:
